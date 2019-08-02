@@ -1,0 +1,1213 @@
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+html, #page { 
+    padding:0; 
+	margin:0;
+}
+body { 
+    margin:0; 
+	padding:0; 
+	width:100%;
+	color:#959595; 
+	font-family: 'Open Sans', sans-serif;
+	background-color: #f6f6f6;
+} 
+#page { 
+    background:#fff;
+}	
+					
+/* -------- Style the header --------*/
+#header { 
+    background:#fff; 
+}
+#header-inner { 
+    margin:0; 
+	padding:0px; 
+	width:970px;
+}
+/* Style the website Logo */
+#logo {  
+    margin-left: 16px;
+	padding:10px 0px; 
+	padding-right: 99px;
+	float: left;
+}
+/* Style the search bar*/
+.box{
+    margin: 0px;
+	padding-top: 31px;
+}
+/*style the button */
+.btn{
+background-color: #008CBA;
+border-radius: 4px;
+border:none;
+color: white;
+padding: 15px 10px;
+text-align: center;
+display:inline-block;
+font-size:16px;
+margin: 0px 10px;
+cursor: pointer;
+
+
+}
+
+.container-1{
+    width: 260px;
+    vertical-align: middle;
+    white-space: nowrap;
+    position: relative;
+}
+.container-1 .icon{
+    position: absolute;
+    top: 0%;
+    margin-left: 17px;
+    margin-top: 13px;
+    z-index: 1;
+    color: #4f5b66;
+}
+.container-1 input#search{
+    width: 466px;
+    height: 46px;
+    background: #f2f2f2;
+    border: none;
+    font-size: 16px;
+    float: none;
+    color: #63717f;
+    padding-left: 50px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+/* Style the login and join us section befor login*/
+/* join us */
+#meta i{
+	width: 20px;
+	height: auto;
+	padding-right:10px;
+	color: #fff;
+}
+
+.action-btn {
+	float: right;
+	margin-top: -45.5px;
+	margin-right: -100px;
+}
+.action-btn a {
+  text-decoration: none;
+  color: #ffffff;
+  padding: 0px 10px;
+}
+.action-btn a:hover {
+  color: #000000;
+}
+.action-btn {
+  border-radius: 4px;
+  padding: 11px 20px 11px 24px;
+  background-color: #079CCE;
+  color: #f2f2f2;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.action-btn:hover {
+  background-color: #ffffff;
+  border: 1px solid;
+  color: #2C2E2E;
+}
+
+/* login */
+
+.action-btn2 {
+	float: right;
+	margin-top: -45.5px;
+	margin-right: -250px;
+}
+.action-btn2 a {
+  text-decoration: none;
+  color: #ffffff;
+  padding: 0px 10px;
+}
+.action-btn2 a:hover {
+  color: #000000;
+}
+.action-btn2 {
+  border-radius: 4px;
+  padding: 11px 20px 11px 10px;
+  background-color: #079CCE;
+  color: #f2f2f2;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.action-btn2:hover {
+  background-color: #ffffff;
+  border: 1px solid;
+  color: #2C2E2E;
+}
+
+
+/* Style the login and join us section after login*/
+/* Dropdown */
+.action-dropdown {
+	float: right;
+	margin-top: -45px;
+	margin-right: -120px;
+  display: inline-block;
+  position: relative;
+}
+.action-dropdown a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.action-dropdown a:hover {
+  color: #222222;
+}
+
+.dd-button {
+  display: inline-block;
+  border-radius: 4px;
+  padding: 10px 40px 10px 20px;
+  background-color: #079CCE;
+  color: #f2f2f2;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.dd-button:after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  transform: translateY(-50%);
+  width: 0; 
+  height: 0; 
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid black;
+}
+.dd-button:hover {
+  background-color: #ffffff;
+  border: 1px solid gray;
+  color: #2C2E2E;
+}
+.dd-input {
+  display: none;
+}
+.dd-menu {
+  position: absolute;
+  top: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 0;
+  margin: 2px 0 0 0;
+  box-shadow: 0 0 6px 0 rgba(0,0,0,0.1);
+  background-color: #ffffff;
+  list-style-type: none;
+}
+.dd-input + .dd-menu {
+  display: none;
+} 
+.dd-input:checked + .dd-menu {
+  display: block;
+} 
+.dd-menu li {
+  padding: 10px 20px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.dd-menu li:hover {
+  background-color: #f2f2f2;
+}
+.dd-menu li a {
+  display: block;
+  margin: -10px -20px;
+  padding: 10px 20px;
+}
+.dd-menu li.divider{
+  padding: 0;
+  border-bottom: 1px solid #cccccc;
+}
+
+
+/* -------- Style the top navigation --------*/
+.topnav {
+	margin:auto;
+    width:100%;
+    overflow: hidden;
+    background-color: #2C2E2E;
+}
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  margin-left: 35px;
+  padding: 14px 44px;
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+}
+.topnav a:hover {
+  text-decoration: none;
+  color:  #079CCE;
+}
+#index i{
+	width: 20px;
+	height: auto;
+	padding-right:10px;
+	color: #fff;
+}
+
+
+
+/*-------- Style the content of the website--------*/
+#content {
+	margin:0; 
+	padding:0;
+}
+#content-inner { 
+    margin:0 auto; 
+	padding:10px 0; 
+	width:100%; 
+	background:#fff;
+}
+#content #contentbar { 
+    margin:0; 
+	padding: 30px 100px 0px 130px;  
+	width:80%;
+	
+}
+#content #contentbar #button { 
+    background-color: #079CCE;
+    color: white;
+    padding: 12px 20px;
+	margin-top: 80px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size:16px;
+	float: right;
+	width: 20%;
+	
+}
+#content #contentbar button:hover { 
+    opacity: 0.8;
+	
+}
+#content-inner #icon{ 
+	padding-left: 10px;
+	margin: 5px 0px;
+    float: left; 
+	width: 150px; 
+	height: 150px;
+}
+#content-inner #icon2{ 
+    margin-left: 350px;
+    margin-right: auto;
+	width: 150px; 
+	height: 150px;
+}
+h2.font{
+	color: #079CCE;
+	margin-bottom: 10px;
+	padding-left:173px; 
+	padding-top:54px; 
+	font-size: 28px; 
+	font-weight: bold;
+}
+h2.font2{
+	color: #079CCE;
+	margin-top: -50px;
+	margin-left: 477px;
+	font-size: 28px; 
+	font-weight: bold;
+}
+
+			
+	
+/*-------- Questions Forum page --------*/
+/*-------- style the questions box --------*/
+.question_box {
+	border-radius: 4px;
+    border: 1px solid #ccc;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: -130px;
+	height: 97px;
+	width: 124.5%;
+	height: auto;
+	
+}
+.answer_box { 
+    float: left;
+	width: 84px; 
+	height: 66px;
+	border: 1px solid #ccc; 
+	border-radius: 4px; 
+	margin: 10px;
+	border-color: green;
+	background-color: #CFEED4;
+}	
+.box_container {
+	font-size: 13px;
+	text-align: center;
+	padding-top: 0px;
+	color: green;
+}
+.answer_box_false { 
+    float: left;
+	width: 84px; 
+	height: 66px;
+	border: 1px solid #ccc; 
+	border-radius: 4px; 
+	margin: 10px;
+	border-color: red;
+	background-color: #FFD2D2;
+}	
+.box_container_false {
+	font-size: 13px;
+	text-align: center;
+	padding-top: 0px;
+	color: red;
+}
+#img_div { 
+    padding: 25px 0px 20px -30px; 
+	float: left; 
+	width: 84px; 
+	height: 66px; 
+	border: 1px solid #ccc; 
+	border-radius: 4px; 
+	margin: 10px;
+	margin-right: 0px;
+}
+#inner_box p {
+	font-size:14.5px;	
+	text-indent: 15px;
+
+}
+#inner_box a:link{
+	font-size:16.7px;
+	color: black;
+    text-decoration: none;
+}
+#inner_box a:visited {
+    color: black;
+	text-decoration: none;
+}
+#inner_box a:hover {
+	color: #27a9e1;
+	text-decoration: none;
+	
+}
+ 
+/*-------- Style the answer page --------*/
+.qcontainer {
+	
+	
+	border-radius: 4px;
+	width: 100%;
+	height: 260px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: -130px;
+    border: 1px solid #ccc;
+    margin: 40px 0px;
+}
+.qdescreption p {
+	font-size:14.5px;	
+	text-indent: -80px;
+}
+
+.fixximg {
+	padding: 25px 0px 20px -30px; 
+	float: left; 
+	width: 266px; 
+	height: 220px; 
+	border: 1px solid #ccc; 
+	border-radius: 4px; 
+	margin: 10px;
+	margin-right: 0px;
+	
+	
+}
+
+
+ 
+
+/*-------- Style the ask question page --------*/
+/*-------- Style the ask question page --------*/
+.question_form {
+	background-color: #ffffff;
+	border-radius: 1px;
+    border: 1px solid #2C2E2E;
+    padding: 25px;
+	margin: 25px 0px;
+}
+.form_on_image {
+	float: right;
+	width: 300px; 
+	height: 250px;
+    margin: 20px 20px 150px 0px;
+	border-radius: 5px;
+    background-color: #f2f2f2;
+} 
+input[type=text], textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+	width: 20%;
+    background-color: #079CCE;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: px;
+    cursor: pointer;
+    font-size:16px;
+}
+input[type=submit]:hover {
+    opacity: 0.8;
+}
+input[type=file]{
+       width: 100%;
+       padding: 12px 20px;
+       margin: 8px 0;
+       display: inline-block;
+       border: 1px solid #ccc;
+       border-radius: 1px;
+       box-sizing: border-box;
+	   
+}
+
+
+/*-------- Style the Pc Laptop Repair page --------*/
+/* Content */
+
+#content8{
+	height:500px;
+	margin-top:30px;
+	margin-left:150px;
+	margin-right:150px;
+	background-color:#FAFAFA;
+}
+#image {
+	margin-top:10px;
+	width:100%; 
+	height:100px;
+	margin-bottom:8px;
+	margin-left:8px 
+}
+#image img.main-laptop{ 
+    height:88%;
+	margin-top:5px ;
+	margin-left:15px ;
+	drop-shadow(8px 8px 10px gray);opacity(30%)
+			 }
+			  
+             
+			 #image h1{ 
+			 }	
+             #image h3{margin-right:36%;float:right; margin-top:-10% ;
+			 }	
+            #button input{
+			background-color:#DAE9BC;
+			
+			}
+ 
+
+	     #hr h1 {
+		 
+  overflow: hidden;
+  text-align: center;
+}
+
+#hr h1:before{
+ background-color: #000;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 5%;
+}
+#hr h1:after {
+  background-color: #000;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+   
+  width: 60%;
+}
+
+#hr h1:before {
+  right: 0.5em;
+  margin-left: -50%;
+}
+
+#hr h1:after {
+  left: 0.5em;
+  margin-right: -50%;
+}
+		#HW{
+		display :none;
+		}
+ #flip button {
+  display: inline-block;
+  margin: 0 10px 0 0;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-family: "Bitter",serif;
+  line-height: 1.8;
+  appearance: none;
+  box-shadow: none;
+  border-radius: 0;
+}
+#flip button:focus {
+  outline: none
+}	
+#flip button{
+color: #fff;
+  text-shadow: -2px 2px #346392;
+  background-color: #079CCE;
+  background-image: linear-gradient(top, #6496c8, #346392);
+  box-shadow: inset 0 0 0 1px #27496d;
+  border: none;
+   
+}	
+	
+#flip button:hover {	
+	 box-shadow: inset 0 0 0 1px #27496d,0 5px 15px #193047;
+ }
+	#flip button:active {	
+	 box-shadow: inset 0 0 0 1px #27496d,inset 0 5px 30px #193047;
+ }
+	
+	
+	
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 23.7%;
+	
+}
+div.gallery {
+    border: 1px solid #ccc;
+	margin-top:50px
+	
+	 
+}
+ 
+div.gallery:hover {
+    border: 1px solid #777;
+	   -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.1); 
+	 transition: transform .5s;
+}
+
+
+div.gallery img {
+    width: 100%;
+      
+  heigth:250px;
+}
+
+div.desc {
+float:bottom;
+    padding: 0px;
+    text-align: center;
+	color:black;
+	margin-top:-20px;
+	margin-bottom:-10px
+}
+
+  div.container11 {
+   height:20px;
+  text-align: center;
+   margin-top: -15px;
+   margin-bottom: 20px;
+}
+		#SW{
+		display :none;
+		margin-left:200px;
+		width:100%
+		}
+        #SW img{
+		width:100%;
+		}		
+
+		
+/*-------- Style the Mac, Toshiba, Hp, Dell, MacOS, Windows page --------*/
+
+
+/* The Style for the Hardware and Software Issues */
+.tab0 {overflow: hidden; background-color: white; text-align: center; width:100%;}
+
+		<!--/* Style the buttons that are used to open the tab content */-->
+		.tab0 button {background-color: white;  border: none; outline: none; cursor: pointer; padding: 14px 16px; transition: 0.3s; text-align: center;}
+
+		<!--/* Change background color of buttons on hover */-->
+		.tab0 button:hover {background-color: white; border: 5px solid #ccc; text-align: center;}
+
+		<!--/* Create an active/current tablink class */-->s
+		.tab0 button.active {background-color: white; border: 5px solid #ccc; text-align: center;}
+		
+		
+		.tab1 {overflow: hidden; border: 1px solid #ccc; background-color: #f1f1f1; margin-bottom: 20px;}
+
+		<!--/* Style the buttons that are used to open the tab content */-->
+		.tab1 button {background-color: inherit; float: left; border: none; outline: none; cursor: pointer; padding: 14px 16px; transition: 0.3s;}
+
+		<!--/* Change background color of buttons on hover */-->
+		.tab1 button:hover {background-color: #ddd;}
+
+		<!--/* Create an active/current tablink class */-->
+		.tab1 button.active1 {background-color: #ccc;}
+		
+		
+
+		<!--/* Style the tab content */-->
+		.tabcontent {display: none; padding: 6px 12px; -webkit-animation: fadeEffect 1s; animation: fadeEffect 1s;} 
+		
+		tabcontent1 {display: none; padding: 6px 12px; -webkit-animation: fadeEffect 1s; animation: fadeEffect 1s;}
+		
+		#box0 {padding: 30px; margin: 12px;}
+		
+		#backw {border-radius: 20px; background-color: #f2f2f2; padding: 40px;}
+		
+		#box1 {padding: 8px; border: 1px solid gray; margin: 12px;}
+		
+		#content7{height:185px;
+                    margin-top:30px;margin-left:150px;margin-right:150px;background-color: #54B7D8; border-radius: 15px;}
+					
+		#image {
+			        margin-top:20px;width:100%; height:200px;margin-bottom:4px;margin-left:8px;  border-radius: 15px;
+              }
+			  
+		#image img.main-laptop{ height:80%; width: 250px; margin-top:5px ;margin-left:15px ; border : 5px solid white; border-radius: 15px;filter: drop-shadow (8px 8px 10px gray); opacity : 30%;  } 
+			  
+		/* Fade in tabs */
+		@-webkit-keyframes fadeEffect {from {opacity: 0;} to {opacity: 1;} }
+			
+		@keyframes fadeEffect {from {opacity: 0;} to {opacity: 1;}}
+
+
+
+
+		
+/*-------- Style the main footer --------*/
+#footer-main { 
+    width: 100%;
+	height: auto;
+	margin: auto;
+	background-color: #2C2E2E;
+	padding: 60px 0px;
+}
+#footer-in {
+	width: 1200px;
+	height: auto;
+	margin: auto;
+}
+#footer-left {
+	width: 260px;
+	height: auto;
+	float: left;
+}
+#footer-box {
+	width: 100%;
+	height: auto;
+	margin: auto;
+	margin-bottom: 30px;
+}
+#footer-box h6 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 19px;
+	color: #fff;
+	text-align: left;
+	margin: 0px;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding-bottom: 15px;
+	
+}
+#footer-box ul {
+	margin: 0px;
+	padding: 0px;
+}
+#footer-box ul li {
+	list-style-type: none;
+	padding-top: 2px;
+	text-align: left;
+	color: #999;
+	
+}
+#footer-box ul li a {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	text-decoration: none;
+	color: #999;
+}
+#footer-box ul li a i {
+	width: 20px;
+	height: auto;
+	padding-right:11px;
+	color: #fff;
+}
+#footer-right {
+	width: 350px;
+	height: auto;
+	float: right;
+}
+#footer-box img{
+    width: 336px;
+	height: 120px;
+	padding-bottom: 15px;
+	
+}
+#footer-box p {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	color: #999;
+	text-align: left;
+	margin: 0px;
+	text-transform: uppercase;
+	padding-top: 5px;
+}
+
+	
+/* -------- Style the footer --------*/
+#footer { 
+    background:#fff;
+}
+#footer-inner { 
+    margin:auto; 
+	text-align:center; 
+	padding:12px; 
+	width:922px;
+}
+#footer a {
+	color: #079CCE;
+	text-decoration:none;
+}
+			
+/* Clear both sides to assist with div alignment  */
+.clr { clear:both; padding:0; margin:0; width:100%; font-size:0px; line-height:0px;}
+/*https://www.youtube.com/watch?v=yafNKsqZ4cA*/
+			
+/*https://www.youtube.com/watch?v=yafNKsqZ4cA*/
+			
+#modal-wrapper  input[type=email], input[type=password],{
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 26px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+	font-size:16px;
+}
+
+/* Set a style for all buttons */
+
+#modal-wrapper button {
+    background-color: #079CCE;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 26px;
+    border: none;
+    cursor: pointer;
+    width: 90%;
+	font-size:20px;
+}
+#modal-wrapper button:hover {
+    opacity: 0.8;
+}
+
+#modal-wrapper2 input[type=email] {
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 26px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+	font-size:16px;
+}
+
+/* Set a style for all buttons */
+
+#modal-wrapper2 button {
+    background-color: #079CCE;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 26px;
+    border: none;
+    cursor: pointer;
+    width: 90%;
+	font-size:20px;
+}
+#modal-wrapper2 button:hover {
+    opacity: 0.8;
+}
+
+
+#modal-wrapper3 input[type=text], input[type=email], input[type=password],input[type=tel]{
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 26px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+	font-size:16px;
+}
+
+/* Set a style for all buttons */
+
+#modal-wrapper3 button {
+    background-color: #079CCE;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 26px;
+    border: none;
+    cursor: pointer;
+    width: 90%;
+	font-size:20px;
+}
+#modal-wrapper3 button:hover {
+    opacity: 0.8;
+}
+
+#modal-wrapper4 input[type=text], input[type=email], input[type=password],input[type=password]{
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 26px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+	font-size:16px;
+}
+
+/* Set a style for all buttons */
+
+#modal-wrapper4 button {
+    background-color: #079CCE;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 26px;
+    border: none;
+    cursor: pointer;
+    width: 90%;
+	font-size:20px;
+}
+#modal-wrapper3 button:hover {
+    opacity: 0.8;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+.avatar {
+    width: 200px;
+	height:200px;
+    border-radius: 50%;
+}
+
+/* The Modal (background) */
+.modal {
+	display:none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+}
+
+/* The Modal (background) */
+.modal2 {
+	display:none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+}
+
+
+.modal3 {
+	display:none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+}
+/* Modal Content Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 4% auto 15% auto;
+    border: 1px solid #888;
+    width: 40%; 
+	padding-bottom: 30px;
+}
+
+.username{
+	text-align:center;
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 26px;
+    border: none;
+    cursor: pointer;
+    width: 83%;
+	font-size:20px;
+	
+}
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+.close:hover,.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+* Add Zoom Animation */
+.animate {
+    animation: zoom 0.6s
+}
+@keyframes zoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+}
+.password1{
+	margin-left:70px;
+	color: red;
+	
+}
+ /* Popup container  w3school*/
+.popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* The actual popup */
+.popup .popuptext {
+    visibility: hidden;
+    width: 160px;
+    background-color: #fff ;
+    color: #555;
+    text-align: center;
+     border-style: solid;
+	border-width:0.1px;
+	border-color: #D8D8D8;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -80px;
+	transform:translate(765px,68px);
+}
+
+/* Popup arrow */
+.popup .popuptext::before {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 80%;
+    margin-left: -5px;
+    border-width: 15px;
+    border-style: solid;
+    border-color:  transparent transparent #F2F2F2  transparent  ;
+}
+.popup .popuptext1 {
+    visibility: hidden;
+    width: 160px;
+    background-color: #fff ;
+    color: #555;
+    text-align: center;
+     border-style: solid;
+	border-width:0.1px;
+	border-color: #D8D8D8;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -80px;
+	transform:translate(930px,5px);
+}
+
+/* Popup arrow */
+.popup .popuptext1::before {
+    content: "";
+    position: absolute;
+    bottom: 35%;
+    right: 100%;
+    margin-left: -5px;
+    border-width: 15px;
+    border-style: solid;
+    border-color:   transparent #F2F2F2 transparent   transparent  ;
+}
+.popup .popuptext2 {
+    visibility: hidden;
+    width: 160px;
+    background-color: #fff ;
+    color: #555;
+    text-align: center;
+     border-style: solid;
+	border-width:0.1px;
+	border-color: #D8D8D8;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    
+
+/* Popup arrow */
+.popup .popuptext2::before {
+    content: "";
+    position: absolute;
+    bottom: 35%;
+    right: 100%;
+    margin-left: -5px;
+    border-width: 15px;
+    border-style: solid;
+    border-color:   transparent #F2F2F2 transparent   transparent  ;
+}
+
+/* Toggle this class - hide and show the popup */
+.popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+}
+
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+    from {opacity: 0;} 
+    to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+}
+
+
+
+
+/* -------- Style my account page --------*/
+
+
+.question_box2 {
+	border-radius: 4px;
+    border: 1px solid #ccc;
+	margin-top: 10px 0px;
+	height: auto;
+	
+}
+
+position: relative;}
+			
+/* Style the tab */
+.tab {overflow: hidden; border: 1px solid #ccc; background-color: #f1f1f1;}
+
+/* Style the buttons inside the tab */
+.tab button { background-color: inherit; float: left; border: none; outline: none; cursor: pointer; padding: 14px 16px; transition: 0.3s;font-size: 17px;}
+
+/* Change background color of buttons on hover */
+.tab button:hover {background-color: #ddd;}
+
+/* Create an active/current tablink class */
+.tab button.active {background-color: #ccc;}
+
+/* Style the tab content */
+.tabcontent {display: none; padding: 6px 12px; border: 1px solid #ccc;border-top: none; }
+
+/*صفحات تسجيل الدخول */
+.topnav #logins{
+display=none;	
+}
+
+.topnav #signout{
+  display: block;
+}
+ 
+ 
+.userinfo{
+	background-color: #f1f1f1;
+	margin-left:10%; 
+	margin-right:10%;
+	height:740px;
+   
+	
+	
+}
+#veiw{display:none;
+position: relative;
+ }
+#edituserinfo{display: none;
+position: relative;
+
+background-color: #f1f1f1;}
+
+#myquestions{display:block;
+position: relative;}
+ .userimg{
+	margin-left:2%;
+	margin-top:2%;
+
+}
+.info1{
+	margin-left:30%;
+	margin-top:-20%;
+}
+ .editimg{
+    margin-left:2%;
+	margin-top:2%;
+	 
+}
+.editinfo{
+	margin-left:25%;
+	margin-top:-20%;
+	 
+}
+.editinfo #chpas{display:none;
+position: relative;
+height:700;}
+
+ #del {
+	 margin:right;
+	 width:42px;height:42px;border:0 ;
+ }

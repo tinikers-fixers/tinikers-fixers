@@ -1,0 +1,748 @@
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+html, #page { 
+    padding:0; 
+	margin:0;
+}
+body { 
+    margin:0; 
+	padding:0; 
+	width:100%; 
+	color:#959595; 
+	font-family: 'Open Sans', sans-serif;
+	background-color: #f6f6f6;
+} 
+#page { 
+    background:#fff;
+}
+				
+
+/* Style the header */
+#header { 
+    background:#fff; 
+}
+#header-inner { 
+    margin:0; 
+	padding:0px; 
+	width:970px;
+}
+
+			
+
+/* Style the search bar*/
+.box{
+    margin: -60px 0px;
+    padding:29px 0px ; 
+    width: 360px;
+    height: 50px;
+}
+.container-1{
+    width: 350px;
+    vertical-align: middle;
+    white-space: nowrap;
+    position: relative;
+}
+.container-1 .icon{
+    position: absolute;
+    top: 50%;
+    margin-left: 17px;
+    margin-top: 17px;
+    z-index: 1;
+    color: #4f5b66;
+}
+.container-1 input#search{
+    width: 370px;
+    height: 50px;
+    background: #f2f2f2;
+    border: none;
+    font-size: 16px;
+    float: left;
+    color: #63717f;
+    padding-left: 45px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+/* -------- Style the top navigation --------*/
+.topnav {
+	margin:auto;
+    width:100%;
+    overflow: hidden;
+    background-color: #2C2E2E;
+}
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  margin-left: 35px;
+  padding: 14px 44px;
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+}
+.topnav a:hover {
+  text-decoration: none;
+  color:  #079CCE;
+}
+#index i{
+	width: 20px;
+	height: auto;
+	padding-right:10px;
+	color: #fff;
+}
+ 
+
+/* Style the content */
+#content-inner { 
+    margin:0 auto; 
+	padding:10px 0; 
+	width:100%; 
+	background:#fff;
+}
+#content #contentbar { 
+    margin:0; 
+	padding:0;  
+	width:100%;
+}
+#content #contentbar .article { 
+    margin:0 0 0px; 
+	padding:0 0px 0 0px; 
+	color:black;
+}
+#content #contentbar .article .searchHomPage { 
+    height:450px;  
+	background: url(../imag/ImageHome2.png);    
+	background-repeat: no-repeat;   
+}
+.searchHomPage img {
+	margin: 55px 0px;
+}
+
+
+/* Style the login and join us section befor login*/
+#meta i{
+	width: 20px;
+	height: auto;
+	padding-right:3px;
+	color: #fff;
+}
+.action-btn {
+	float: left;
+	margin-top: 10px;
+	margin-left: 20px
+}
+.action-btn a {
+  text-decoration: none;
+  color: #ffffff;
+  padding: 0px 10px;
+}
+.action-btn a:hover {
+  color: #000000;
+}
+.action-btn {
+  border-radius: 4px;
+  padding: 11px 20px;
+  background-color: #079CCE;
+  color: #f2f2f2;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.action-btn:hover {
+  background-color: #ffffff;
+  border: 1px solid;
+  color: #2C2E2E;
+}
+
+
+
+
+/* Style the login and join us section after login*/
+/* Dropdown */
+.action-dropdown {
+	float: left;
+	margin-top: 10px;
+	margin-left: 16px;
+  display: inline-block;
+  position: relative;
+}
+.action-dropdown a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.action-dropdown a:hover {
+  color: #222222;
+}
+
+.dd-button {
+  display: inline-block;
+  border-radius: 4px;
+  padding: 10px 40px 10px 20px;
+  background-color: #079CCE;
+  color: #f2f2f2;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.dd-button:after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  transform: translateY(-50%);
+  width: 0; 
+  height: 0; 
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid black;
+}
+.dd-button:hover {
+  background-color: #ffffff;
+  border: 1px solid gray;
+  color: #2C2E2E;
+}
+.dd-input {
+  display: none;
+}
+.dd-menu {
+  position: absolute;
+  top: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 0;
+  margin: 2px 0 0 0;
+  box-shadow: 0 0 6px 0 rgba(0,0,0,0.1);
+  background-color: #ffffff;
+  list-style-type: none;
+}
+.dd-input + .dd-menu {
+  display: none;
+} 
+.dd-input:checked + .dd-menu {
+  display: block;
+} 
+.dd-menu li {
+  padding: 10px 20px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.dd-menu li:hover {
+  background-color: #f2f2f2;
+}
+.dd-menu li a {
+  display: block;
+  margin: -10px -20px;
+  padding: 10px 20px;
+}
+.dd-menu li.divider{
+  padding: 0;
+  border-bottom: 1px solid #cccccc;
+}
+
+
+
+
+#content #contentbar .article .searchHomPage .formsearchHomPage {  
+    padding:100px 80px ; 
+	max-width: 500px;  
+}
+#content #contentbar .article #content1{
+	height:800px; 
+	text-align:center; 
+	margin-top:30px; 
+}
+			
+/* Style the slideshow container */
+#content #contentbar .article #content1 #about .slideshow-container { 
+    position: relative; 
+	margin: auto; 
+}
+
+/* Next & previous buttons */
+#content #contentbar .article #content1 #about .slideshow-container .prev, .next { 
+    cursor: pointer; 
+	position: absolute; 
+	top: 50%; 
+	width: auto; 
+	padding: 16px; 
+	margin-top: -22px;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	transition: 0.6s ease;
+	border-radius: 0 3px 3px 0;
+
+}
+
+/* Position the "next button" to the right */
+#content #contentbar .article #content1 #about.slideshow-container , .next {  
+    right: 26%; 
+	border-radius: 3px 0 0 3px; 
+	color:white;
+}
+#content #contentbar .article #content1 #about.slideshow-container , .prev { 
+    left: 26%; 
+	border-radius: 3px 0 0 3px ; 
+	color:white ;
+}
+/* On hover, add a black background color with a little bit see-through */
+#content #contentbar .article #content1 #about .slideshow-container   .prev:hover, .next:hover { 
+    background-color: rgba(0,0,0,0.8);
+	text-align: center;
+}
+#content #contentbar .article #content1 #about .slideshow-container .text { 
+    color: #000000;
+	font-size: 40px; 
+	padding: 8px 12px; 
+	position: absolute; '
+	margin-bottom:20px;	
+	bottom: 150px;
+	width: 100%; 
+	text-align: center;
+}
+#content #contentbar .article #content1 #about .slideshow-container .text2{
+	color: #000000;
+	font-size: 30px; 
+	padding: 8px 12px;
+	position: absolute; 
+	bottom: 100px;
+	width: 100%; 
+	text-align: center;
+}
+#content #contentbar .article #content1 #about .slideshow-container .text1 { 
+    color: #000000;
+	font-size: 30px; 
+	padding: 8px 12px;
+	position: absolute;
+    right:90px;	
+	bottom:40px;
+	width: 100%; 
+	text-align:center;
+}
+#content #contentbar .article #content1 #content2 {
+	height:400px; 
+	padding-top:30px;
+}
+
+
+/* Style the contact us form */	
+#area textarea, input[type=email], input[type=text], input[type=tel]{
+    width: 60%;
+    padding: 12px 20px;
+    margin: 8px 26px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+	font-size:16px;
+}
+#area input[type=submit]{
+	width: 20%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size:16px;
+}
+#area input[type=submit]:hover{
+	opacity: 0.8;
+}
+			
+/*-------- Style the main footer --------*/
+#footer-main { 
+    width: 100%;
+	height: auto;
+	margin: auto;
+	background-color: #2C2E2E;
+	padding: 60px 0px;
+}
+#footer-in {
+	width: 1200px;
+	height: auto;
+	margin: auto;
+}
+#footer-left {
+	width: 260px;
+	height: auto;
+	float: left;
+}
+#footer-box {
+	width: 100%;
+	height: auto;
+	margin: auto;
+	margin-bottom: 30px;
+}
+#footer-box h6 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 19px;
+	color: #fff;
+	text-align: left;
+	margin: 0px;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding-bottom: 15px;
+	
+}
+#footer-box ul {
+	margin: 0px;
+	padding: 0px;
+}
+#footer-box ul li {
+	list-style-type: none;
+	padding-top: 2px;
+	text-align: left;
+	color: #999;
+	
+}
+#footer-box ul li a {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	text-decoration: none;
+	color: #999;
+}
+#footer-box ul li a i {
+	width: 20px;
+	height: auto;
+	padding-right:11px;
+	color: #fff;
+}
+#footer-right {
+	width: 350px;
+	height: auto;
+	float: right;
+}
+#footer-box img{
+    width: 336px;
+	height: 120px;
+	padding-bottom: 15px;
+	
+}
+#footer-box p {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	color: #999;
+	text-align: left;
+	margin: 0px;
+	text-transform: uppercase;
+	padding-top: 5px;
+}
+
+	
+/* -------- Style the footer --------*/
+#footer { 
+    background:#fff;
+}
+#footer-inner { 
+    margin:auto; 
+	text-align:center; 
+	padding:12px; 
+	width:922px;
+}
+#footer a {
+	color: #079CCE;
+	text-decoration:none;
+}	
+
+			
+/* Clear both sides to assist with div alignment  */
+.clr { clear:both; padding:0; margin:0; width:100%; font-size:0px; line-height:0px;}
+/*https://www.youtube.com/watch?v=yafNKsqZ4cA*/
+			
+#modal-wrapper input[type=email], input[type=password],{
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 26px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+	font-size:16px;
+}
+
+/* Set a style for all buttons */
+
+#modal-wrapper button {
+    background-color: #079CCE;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 26px;
+    border: none;
+    cursor: pointer;
+    width: 90%;
+	font-size:20px;
+}
+#modal-wrapper button:hover {
+    opacity: 0.8;
+}
+
+#modal-wrapper2 input[type=email] {
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 26px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+	font-size:16px;
+}
+
+/* Set a style for all buttons */
+
+#modal-wrapper2 button {
+    background-color: #079CCE;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 26px;
+    border: none;
+    cursor: pointer;
+    width: 90%;
+	font-size:20px;
+}
+#modal-wrapper2 button:hover {
+    opacity: 0.8;
+}
+
+
+#modal-wrapper3 input[type=text], input[type=email], input[type=password],input[type=tel]{
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 26px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+	font-size:16px;
+}
+
+/* Set a style for all buttons */
+
+#modal-wrapper3 button {
+    background-color: #079CCE;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 26px;
+    border: none;
+    cursor: pointer;
+    width: 90%;
+	font-size:20px;
+}
+#modal-wrapper3 button:hover {
+    opacity: 0.8;
+}
+
+
+/* Center the image and position the close button */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+.avatar {
+    width: 200px;
+	height:200px;
+    border-radius: 50%;
+}
+
+/* The Modal (background) */
+.modal {
+	display:none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+}
+
+/* The Modal (background) */
+.modal2 {
+	display:none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+}
+
+
+.modal3 {
+	display:none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+}
+/* Modal Content Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 4% auto 15% auto;
+    border: 1px solid #888;
+    width: 40%; 
+	padding-bottom: 30px;
+}
+
+.username{
+	text-align:center;
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 26px;
+    border: none;
+    cursor: pointer;
+    width: 83%;
+	font-size:20px;
+	
+}
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+.close:hover,.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+    animation: zoom 0.6s
+}
+@keyframes zoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+}
+.password1{
+	margin-left:70px;
+	color: red;
+	
+}
+ /* Popup container  w3school*/
+.popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* The actual popup */
+.popup .popuptext {
+    visibility: hidden;
+    width: 160px;
+    background-color: #fff ;
+    color: #555;
+    text-align: center;
+     border-style: solid;
+	border-width:0.1px;
+	border-color: #D8D8D8;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -80px;
+	transform:translate(765px,68px);
+}
+
+/* Popup arrow */
+.popup .popuptext::before {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 80%;
+    margin-left: -5px;
+    border-width: 15px;
+    border-style: solid;
+    border-color:  transparent transparent #F2F2F2  transparent  ;
+}
+.popup .popuptext1 {
+    visibility: hidden;
+    width: 160px;
+    background-color: #fff ;
+    color: #555;
+    text-align: center;
+     border-style: solid;
+	border-width:0.1px;
+	border-color: #D8D8D8;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -80px;
+	transform:translate(930px,5px);
+}
+
+/* Popup arrow */
+.popup .popuptext1::before {
+    content: "";
+    position: absolute;
+    bottom: 35%;
+    right: 100%;
+    margin-left: -5px;
+    border-width: 15px;
+    border-style: solid;
+    border-color:   transparent #F2F2F2 transparent   transparent  ;
+}
+.popup .popuptext2 {
+    visibility: hidden;
+    width: 160px;
+    background-color: #fff ;
+    color: #555;
+    text-align: center;
+     border-style: solid;
+	border-width:0.1px;
+	border-color: #D8D8D8;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+   
+}
+
+/* Popup arrow */
+.popup .popuptext2::before {
+    content: "";
+    position: absolute;
+    bottom: 35%;
+    right: 100%;
+    margin-left: -5px;
+    border-width: 15px;
+    border-style: solid;
+    border-color:   transparent #F2F2F2 transparent   transparent  ;
+}
+
+/* Toggle this class - hide and show the popup */
+.popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+}
+
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+    from {opacity: 0;} 
+    to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+}
